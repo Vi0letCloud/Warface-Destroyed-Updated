@@ -1,0 +1,20 @@
+﻿  Main.cpp
+c:\users\inder\documents\visual studio 2015\projects\warface directex\warface directex\main.cpp(711): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\inder\documents\visual studio 2015\projects\warface directex\warface directex\main.cpp(1156): warning C4804: '>': unsafe use of type 'bool' in operation
+d3dx9.lib(cimage.obj) : error LNK2019: unresolved external symbol _sscanf referenced in function "private: long __thiscall D3DXTex::CImage::LoadPFM(void const *,unsigned long)" (?LoadPFM@CImage@D3DXTex@@AAEJPBXK@Z)
+d3dx9.lib(cshaderprogram.obj) : error LNK2001: unresolved external symbol _sprintf
+d3dx9.lib(jerror.obj) : error LNK2001: unresolved external symbol _sprintf
+d3dx9.lib(c30program.obj) : error LNK2001: unresolved external symbol _sprintf
+d3dx9.lib(cpsprogram.obj) : error LNK2001: unresolved external symbol _sprintf
+d3dx9.lib(cvsprogram.obj) : error LNK2001: unresolved external symbol _sprintf
+d3dx9.lib(cvsprogram.obj) : error LNK2001: unresolved external symbol __snprintf
+d3dx9.lib(cshaderprogram.obj) : error LNK2001: unresolved external symbol __snprintf
+d3dx9.lib(cprogram.obj) : error LNK2001: unresolved external symbol __snprintf
+d3dx9.lib(cparse.obj) : error LNK2001: unresolved external symbol __snprintf
+d3dx9.lib(c30program.obj) : error LNK2001: unresolved external symbol __snprintf
+d3dx9.lib(cpsprogram.obj) : error LNK2001: unresolved external symbol __snprintf
+d3dx9.lib(cpreprocessor.obj) : error LNK2001: unresolved external symbol __snprintf
+d3dx9.lib(ctokenize.obj) : error LNK2001: unresolved external symbol __snprintf
+d3dx9.lib(ccompiler.obj) : error LNK2001: unresolved external symbol __snprintf
+d3dx9.lib(cbaseprogram.obj) : error LNK2001: unresolved external symbol __snprintf
+c:\users\inder\documents\visual studio 2015\Projects\Warface DirectEx\Debug\Warface DirectEx.dll : fatal error LNK1120: 3 unresolved externals
