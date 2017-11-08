@@ -1,10 +1,10 @@
 #include "stdafx.h"
 
 #pragma intrinsic(_ReturnAddress) 
-#define WFPlayer 0x794D91
-#define WarfaceSmoke 0x790E54
-#define World 0x794D3E
-#define Fullbright 0xF3A84E
+#define WFPlayer 0x106ACA1
+#define WarfaceSmoke 0x1066D64
+#define World 0x106AC4E
+#define Fullbright 0x1327ADE
 //#define Mines ((NumVertices == 637 && primCount == 524 && Stride == 16)|| (NumVertices == 1541 && primCount == 1220 && Stride == 16))
 //#define Grenades ((NumVertices == 128 && primCount == 120 && Stride == 16 ))
 
