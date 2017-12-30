@@ -510,18 +510,10 @@ DWORD GetDeviceAddress(int VTableIndex)
 
 void zThread()
 {
-	while (true) {
-		xPresent = (Prototype_Present)DetourFunction((PBYTE)GetDeviceAddress(17), (PBYTE)zPresent);
-		xEnd = (Prototype_End)DetourFunction((PBYTE)GetDeviceAddress(42), (PBYTE)zEnd);
-		xReset = (Prototype_Reset)DetourFunction((PBYTE)GetDeviceAddress(16), (PBYTE)zReset);
-		xDrawIndexedPrimitive = (Prototype_DrawIndexedPrimitive)DetourFunction((PBYTE)GetDeviceAddress(82), (PBYTE)zDrawIndexedPrimitive);
-
-		Sleep(60000);
-		DetourRemove((PBYTE)zPresent, (PBYTE)zPresent);
-		DetourRemove((PBYTE)zEnd, (PBYTE)zEnd);
-		DetourRemove((PBYTE)zReset, (PBYTE)zReset);
-		DetourRemove((PBYTE)zDrawIndexedPrimitive, (PBYTE)zDrawIndexedPrimitive);
-	}
+	xPresent = (Prototype_Present)DetourFunction((PBYTE)GetDeviceAddress(17), (PBYTE)zPresent);
+	xEnd = (Prototype_End)DetourFunction((PBYTE)GetDeviceAddress(42), (PBYTE)zEnd);
+	xReset = (Prototype_Reset)DetourFunction((PBYTE)GetDeviceAddress(16), (PBYTE)zReset);
+	xDrawIndexedPrimitive = (Prototype_DrawIndexedPrimitive)DetourFunction((PBYTE)GetDeviceAddress(82), (PBYTE)zDrawIndexedPrimitive);
 }
 
 HRESULT cGenTex(LPDIRECT3DDEVICE9 Device, IDirect3DTexture9 **ppD3Dtex, DWORD colour32)
